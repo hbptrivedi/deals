@@ -1,0 +1,40 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Enter Your Custom CSS Here */
+.site {
+	background-color: #fff;
+	max-width: 1340px;
+	position: relative;
+}
+.masthead-fixed .site-main {
+margin-top: 1px;
+}
+
+/* Below mentioned Code will increase main post width */ 
+.site-content .entry-header, 
+.site-content .entry-content,
+.site-content .entry-summary,
+.site-content .entry-meta, .page-content { 
+/* Original max-width: 474px */ 
+ max-width: 120%; 
+} 
+.site { 
+ margin: 0 auto; 
+}
+
+
+
+/* Below mentioned Code will increase the weight of Header font */ 
+.entry-title { 
+ font-size: 22px; 
+ font-weight: 600; 
+ line-height: 1.0909090909; 
+ margin-bottom: 10px; 
+ margin: 0 0 12px; 
+ text-transform: none; 
+} 
+
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->

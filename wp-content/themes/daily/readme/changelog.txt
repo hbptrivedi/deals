@@ -1,0 +1,49 @@
+3.0.2 - Oct 27, 2015
+* Improve search form with HTML5 markup
+  searchform.php & menu-secondary.php
+* Remove `wp_title` function callback, it will be deprecated in WordPress 4.4
+  extras.php
+* Remove `daily_meta_template` function as it will throw an error on HTML validator
+  extras.php
+* Update TGMPA library, security issue
+  inc/classes/class-tgm-plugin-activation.php
+* Update Schema.org markup function
+  inc/hybrid/attr.php
+* Fixed problem loaded child theme stylesheet
+  inc/scripts.php
+* Updated jQuery plugins and rename plugins.js to plugins.min.js
+  assets/js/plugins.min.js
+  assets/js/daily.min.js
+  assets/js/main.js
+
+2015.09.01 - version 3.0.1
+* Support WordPress 4.3+
+
+2015.04.8 - version 3.0
+ * new Theme Options Panel
+ * Mega Menu
+ * Responsive Layout
+ * Post layouts
+ * Archive layouts
+
+2012.07.22 - version 2.0
+ * Added new Theme Options Panel
+ * Added Social Share Icons on posts
+ * Added Newsletter Form on posts
+ * Added Custom Widgets
+ * Added Enable/Disable Content Bar
+ * Added WP Featured Image
+ * Removed TimThumb Image Resizing
+
+2011.08.19 - version 1.0.3
+ * timthumb.php - updated timthumb to the latest version (v2.8)
+
+2011.02.24 - version 1.0.2
+ * functions/theme-options.php - fixed a bug for WP 3.1 compatibility
+
+2010.12.24 - version 1.0.1
+ * js/global.js - Fixed a bug of javascript conflicts
+ * functions.php - Changed the max number to display pagination
+
+2010.12.23 - version 1.0
+ * First release!

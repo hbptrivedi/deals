@@ -1,0 +1,414 @@
+/* Options Framework Admin Styles */
+
+#optionsframework {
+	background:#fff;
+	border-right: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+}
+
+#optionsframework-metabox {
+	border: 1px solid #dfdfdf;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	background: #f9f9f9;
+}
+
+#optionsframework h3 {
+	cursor: default;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #ddd;
+}
+#optionsframework p {
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+#optionsframework .section {
+	padding:10px 10px 0;
+}
+#optionsframework .group {
+	padding-bottom:40px;
+}
+#optionsframework .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#optionsframework .section .explain {
+	max-width:38%;
+	float: right;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#optionsframework .section-checkbox .controls {
+	width: 98%;
+}
+#optionsframework .section-checkbox .explain {
+	max-width:94%;
+	float: left;
+}
+#optionsframework .controls input[type=text] {
+	width:100%;
+}
+#optionsframework .controls input[type=text].wp-color-picker {
+	width: 65px;
+}
+#optionsframework .controls select, #optionsframework .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#optionsframework .section-radio label, #optionsframework .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#optionsframework input.checkbox, #optionsframework input.of-radio {
+	margin: 0 10px 5px 0;
+	float:left;
+	clear:both;
+}
+#optionsframework .section-typography .controls {
+	
+}
+#optionsframework .section-typography .explain {
+	
+}
+#optionsframework .controls .of-typography-size {
+	width:80px;
+	float:left
+}
+#optionsframework .controls .of-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#optionsframework .controls .of-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .section-typography .wp-picker-container {
+	margin-top:2px;
+}
+#optionsframework .of-background-properties {
+	clear:both;
+	margin-top: 18px;
+}
+#optionsframework .controls .of-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .controls .of-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#optionsframework .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#optionsframework .controls .of-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#optionsframework .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+#optionsframework .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#optionsframework .controls .of-border-width {
+	width:80px;
+	float:left
+}
+#optionsframework .controls .of-border-style {
+	width:120px;
+	float:left
+}
+#optionsframework .hide {
+	display:none;
+}
+#optionsframework .of-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#optionsframework .mini .controls select, #optionsframework .section .mini .controls {
+	width: 140px;
+}
+#optionsframework .mini .controls input, #optionsframework .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#optionsframework .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#optionsframework .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+/* Image Uploader */
+
+#optionsframework .controls input.upload {
+	width:80%;
+}
+#optionsframework .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+#optionsframework .screenshot img {
+	background:#fafafa;
+	border-color:#ccc #eee #eee #ccc;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+	margin-bottom:10px;
+}
+#optionsframework .screenshot .remove-image {
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+#optionsframework .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+#optionsframework .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#optionsframework .reset-button {
+	float:left;
+	cursor:pointer;
+}
+
+/* Bottom Section */
+
+#optionsframework-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ddd;
+	background-color: #f1f1f1;
+}
+#optionsframework .button-primary {
+	float:right;
+}
+#optionsframework .reset-button {
+	float:right;
+	margin-right: 10px;
+}
+#optionsframework .section:after {
+	content: "";
+	display: table;
+}
+#optionsframework .section:after {
+	clear: both;
+}
+
+/* Custom */
+#optionsframework {
+	overflow: hidden;
+}
+#optionsframework .section {
+	border-bottom: 1px dashed #dedede;
+	padding: 10px 20px 20px;
+}
+#optionsframework .section.section-seperator {
+	border: 0;
+	padding-bottom: 0;
+}
+#optionsframework .section:last-child {
+	border-bottom: 0;
+}
+#optionsframework h3 {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+#optionsframework .section-info {
+	background-color: #EFF9FF;
+	margin: 20px 20px 0 20px;
+	border: 1px solid #D6F0FF;
+	padding: 20px;
+}
+#optionsframework .section-info h4 {
+	display: none;
+}
+#optionsframework .section-info p {
+	padding: 0;
+	margin: 0;
+}
+
+#optionsframework-metabox {
+	
+}
+
+#optionsframework-sidebar {
+	float: right;
+	width: 280px;
+}
+#optionsframework-sidebar .metabox-holder {
+	padding-top: 0;
+}
+
+.tjsocial {
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.header-options {
+	background: #222;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: -12px;
+	position: relative;
+	z-index: 99;
+	margin-top: 11px;
+}
+
+.header-options ul {
+	margin: 0;
+}
+
+.header-options li {
+	margin: 0 40px 0 0;
+	display: inline-block;
+}
+
+.header-options a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-options a:hover {
+	text-decoration: underline;
+}
+
+.header-options .dashicons {
+	padding-right: 5px;
+}
+
+/* Navigation */
+#optionsframework-wrap .nav-tab-wrapper {
+	float: left;
+	list-style: none;
+	width: 151px;
+	position: relative;
+	z-index: 99;
+	margin: 54px -1px 0 0;
+}
+
+#optionsframework-wrap .nav-tab-wrapper li {
+	margin: 0;
+}
+
+#optionsframework-wrap .nav-tab-wrapper .of-nav-tab {
+	display: block;
+	padding: 10px;
+	border-bottom: 0;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-right: 0;
+}
+
+#optionsframework-wrap .nav-tab-wrapper .nav-tab-active {
+	background: #fff;
+	border: 1px solid #dedede;
+	border-right: 0;
+}
+
+/* On-Off Switcher */
+#optionsframework-wrap .switch {
+	position: relative;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #dedede;
+}
+
+#optionsframework-wrap .switch-label {
+	position: relative;
+	z-index: 2;
+	float: left;
+	width: 50px;
+	height: 28px;
+	line-height: 31px;
+	color: #333;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+#optionsframework-wrap .switch-label.switch-label-off {
+	left: 0;
+}
+
+#optionsframework-wrap .switch-input {
+	display: none;
+}
+
+#optionsframework-wrap .switch-input:checked + .switch-label {
+	border: 0;
+	color: #fff;
+	-webkit-transition: 0.15s ease-out;
+	transition: 0.15s ease-out;
+}
+
+#optionsframework-wrap .switch-selection {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	left: -1px;
+	width: 50px;
+	height: 29px;
+	background: #2ea2cc;
+	border: 1px solid #0074a2;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: left 0.15s ease-out;
+	transition: left 0.15s ease-out;
+}
+
+#optionsframework-wrap .switch-input:last-of-type:checked ~ .switch-selection {
+	background: #b73b27;
+	border-color: #7f291b;
+	color: #fff;
+	left: 50px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(229,134,119,0.6), 0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(229,134,119,0.6), 0 1px 0 rgba(0,0,0,.15); 
+}
+
+#optionsframework-wrap .switch-input:checked + .switch-label-off ~ .switch-selection {
+	left: 50px;
+}

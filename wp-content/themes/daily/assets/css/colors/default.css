@@ -1,0 +1,58 @@
+/**
+ * 1.0 Color
+ * -----------------------------------------------------------------------------
+ */
+
+a:link,
+a:visited,
+#secondary-nav ul.sf-menu li li a:hover,
+#primary-nav ul.sf-menu li li a:hover,
+#primary-nav ul li a:hover,
+#primary-nav ul li.current_item a
+#secondary-nav .sf-menu li li a:hover,
+.pagination .prev,
+.pagination .next,
+.pagination .page-numbers:hover,
+.pagination .page-numbers.current,
+.widget_tabs .tab-content .entry-title a:hover,
+#site-bottom a:hover,
+.sidebar2 .widget_tabs .tabs-nav li.active a,
+.entry-title a:hover,
+.category-box ul li strong a:hover,
+.section-title a:hover,
+.widget_latest_comments a:hover .name,
+.related-posts ul li a:hover .entry-title,
+.widget_tabs .tab-content ul li .entry-title {
+	color: #326693;
+}
+.widget_tabs .entry-title a:hover,
+.posts .cat-posts .view-more a,
+.posts .cat-posts a:hover .entry-title {
+	color: #326693 !important;
+}
+
+/**
+ * 2.0 Background
+ * -----------------------------------------------------------------------------
+ */
+#secondary-bar,
+#secondary-nav ul li a,
+.widget_tabs .tabs-nav {
+	border-bottom: 3px solid #326693;
+}
+#secondary-nav ul li a:hover,
+#secondary-nav ul li.current_item a,
+.widget_tabs .tabs-nav .active,
+.widget_tabs .tabs-nav li:hover {
+	color: #326693;
+	border-bottom: 3px solid #A3bb43;
+}
+/**
+ * 3.0 Border Color
+ * -----------------------------------------------------------------------------
+ */
+#featured-content .jcarousel-control-prev:hover,
+#featured-content .jcarousel-control-next:hover,
+.see-all a:hover {
+	border-color: #326693;
+}

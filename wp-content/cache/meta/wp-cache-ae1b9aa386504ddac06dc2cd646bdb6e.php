@@ -1,0 +1,1 @@
+<?php die(); ?>{"dynamic":true,"uri":"deals.ncrmart.com\/feed\/","blog_id":1,"post":0,"key":"deals.ncrmart.com80\/feed\/gzip","headers":{"Last-Modified":"Last-Modified: Sat, 25 Aug 2018 05:32:00 GMT","ETag":"ETag: \"535b3a115bda26af59fe010f9f94cf4b\"","Content-Type":"Content-Type: application\/rss+xml; charset=\"UTF-8\""}}
